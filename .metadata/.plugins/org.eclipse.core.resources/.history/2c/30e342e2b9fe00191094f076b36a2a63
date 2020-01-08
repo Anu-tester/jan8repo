@@ -1,0 +1,33 @@
+package com.e2eproject.xpathCsslocator;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class dynamiclocatorsXpath {
+	WebDriver driver;
+
+	@BeforeTest
+	public void init() {
+		System.setProperty("webdriver.chrome.driver", "c://chromedriver.exe");
+		driver = new ChromeDriver();
+
+	}
+
+	@Test
+	public void dynamicxpath() {
+
+		// *****using single slash=Absolute xpath
+		//   *********//*[contains(@id,'Email')]
+		// ********"//h4/a[contains(text(),'SAP M')]"
+		// ******"//div[.//a[text()='SELENIUM']]/ancestor::div[@class='rt-grid-2 rt-omega']/following-sibling::div"
+		
+		//**********//label[starts-with(@id,'message')]
+		driver.get("https://www.google.com");
+		driver.findElement(By.xpath("//div[@class='a4bIc'][1]")).sendKeys("testing");
+
+	}
+
+}

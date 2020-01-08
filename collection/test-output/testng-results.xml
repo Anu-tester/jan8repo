@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43" started-at="2019-09-27T15:35:11Z" finished-at="2019-09-27T15:35:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43" started-at="2019-09-27T15:35:11Z" finished-at="2019-09-27T15:35:11Z">
+      <class name="com.e2eproject.collection.largestnumber">
+        <test-method status="PASS" signature="largestnumber()[pri:0, instance:com.e2eproject.collection.largestnumber@4cc0edeb]" name="largestnumber" duration-ms="20" started-at="2019-09-27T08:35:11Z" finished-at="2019-09-27T08:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- largestnumber -->
+      </class> <!-- com.e2eproject.collection.largestnumber -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

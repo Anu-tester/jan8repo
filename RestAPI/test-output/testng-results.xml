@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1143" started-at="2019-10-11T00:51:28Z" finished-at="2019-10-11T00:51:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1143" started-at="2019-10-11T00:51:28Z" finished-at="2019-10-11T00:51:29Z">
+      <class name="com.e2eproject.RestAPI.GetAPITests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.e2eproject.RestAPI.GetAPITests@b97c004]" name="setUp" is-config="true" duration-ms="9" started-at="2019-10-10T17:51:28Z" finished-at="2019-10-10T17:51:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAPITestWithoutHeaders()[pri:0, instance:com.e2eproject.RestAPI.GetAPITests@b97c004]" name="getAPITestWithoutHeaders" duration-ms="987" started-at="2019-10-10T17:51:28Z" finished-at="2019-10-10T17:51:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithoutHeaders -->
+        <test-method status="PASS" signature="getAPITestWithHeaders()[pri:0, instance:com.e2eproject.RestAPI.GetAPITests@b97c004]" name="getAPITestWithHeaders" duration-ms="126" started-at="2019-10-10T17:51:29Z" finished-at="2019-10-10T17:51:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithHeaders -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.e2eproject.RestAPI.GetAPITests@b97c004]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-10T17:51:29Z" finished-at="2019-10-10T17:51:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.e2eproject.RestAPI.GetAPITests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

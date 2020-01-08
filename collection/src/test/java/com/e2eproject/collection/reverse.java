@@ -1,0 +1,39 @@
+package com.e2eproject.collection;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+import org.testng.annotations.Test;
+
+public class reverse {
+
+	
+
+	@Test
+	public void reverseString() {
+		String str="Reverse";
+		String type="";
+		
+		for(int i=str.length()-1;i>=0;i--) {
+			//System.out.println(str.charAt(i));
+		type=	type+str.charAt(i);
+		}
+		
+				
+		System.out.println(type);
+	}
+	@Test
+	public void reverseinteger() {
+		
+		int num=12345;
+		int rev=0;
+		while(num!=0) {
+			rev=(rev*10+num%10);//find out remainder
+			num=num/10;
+			
+		}
+		System.out.println(rev);
+		
+	}
+}

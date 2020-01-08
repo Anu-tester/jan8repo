@@ -1,0 +1,21 @@
+package javainterviewquestions;
+
+public class reversestring {
+	public static void main(String[] args) {
+		
+		String str="valid";
+		int len=str.length();
+		System.out.println(len);
+		String rev="";
+		for(int i=len-1;i>=0;i--) {
+			rev=rev+str.charAt(i);
+			
+		}
+		
+		System.out.println(rev);
+		
+		StringBuffer sf=new StringBuffer("correct");
+		System.out.println(sf.reverse());
+
+	}
+}
