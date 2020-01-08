@@ -11,7 +11,7 @@ LinkedList is better for manipulating data.
 *****************************************************************************************
 
 ArrayList	Vector
-1) ArrayList is not synchronized.	
+1) ArrayList is not-synchronized.	
 Vector is synchronized.
 2) ArrayList increments 50% of current array size if the number of elements exceeds from its capacity.
 	Vector increments 100% means doubles the array size if the total number of elements exceeds than its capacity.

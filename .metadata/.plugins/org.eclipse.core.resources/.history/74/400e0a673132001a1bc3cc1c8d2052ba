@@ -33,8 +33,12 @@ public class reverse {
 			num=num/10;
 			
 		}
-		System.out.println(rev);}
+		System.out.println(rev);}}
 		
 	
 
 }
+/*difference between array and arraylist in java include eight points namely Resizable,
+ *  Performance, Traversal ,Primitives , Length , Type-Safety, Adding elements ,
+ *   Multi-dimensional.*/
+ */

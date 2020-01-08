@@ -17,3 +17,8 @@ The List interface contains a single legacy class which is Vector class whereas
  Set interface does not have any legacy class.
 The List interface can allow n number of null values whereas 
 Set interface only allows a single null value.
+**************************************************************
+/*difference between array and arraylist in java include eight points namely Resizable,
+ *  Performance, Traversal ,Primitives , Length , Type-Safety, Adding elements ,
+ *   Multi-dimensional.*/
+ */
